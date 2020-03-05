@@ -37,6 +37,7 @@ public class Game {
      */
     public void play() {
         coin = Coin.getInstance();
+        rules = Rules.getInstance();
 
         for (Map.Entry<Player, List<CoinState>> entry : history.entrySet()) {
             int nbHeads = 0;
@@ -62,6 +63,10 @@ public class Game {
             if (entry.getValue().size() < fewerMovesToWin){
                 fewerMovesToWin = entry.getValue().size();
             }
+
+            //Check if player win
+            //System.out.println(rules.checkWin(entry.getValue()));
+
         }
     }
 

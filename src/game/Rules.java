@@ -24,7 +24,7 @@ public class Rules {
         nbHeads++;
       }
     }
-    
+
     if (nbHeads >= 3){
       return true;
     }else {
