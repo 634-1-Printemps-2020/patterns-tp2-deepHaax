@@ -18,7 +18,7 @@ public class Game {
     private int mostMovesToWin = 0;
     private int totalNumberMoves = 0;
 
-    private Statistics stats = new Statistics(averageToWin, fewerMovesToWin, mostMovesToWin, totalNumberMoves);
+    private Statistics statistics = new Statistics(averageToWin, fewerMovesToWin, mostMovesToWin, totalNumberMoves);
 
     public Game() { history = new HashMap<>(); }
 
@@ -36,7 +36,7 @@ public class Game {
      * Faire joueur tous les joueurs et stocker chaque partie dans history
      */
     public void play() {
-        coin = new Coin();
+        coin = Coin.getInstance();
 
         for (Map.Entry<Player, List<CoinState>> entry : history.entrySet()) {
             int nbHeads = 0;
@@ -72,15 +72,15 @@ public class Game {
      */
     public Statistics getStatistics() {
 
-        stats.setFewerMovesToWin(fewerMovesToWin);
-        stats.setMostMovesToWin(mostMovesToWin);
-        stats.setTotalNumberMoves(totalNumberMoves);
+        statistics.setFewerMovesToWin(fewerMovesToWin);
+        statistics.setMostMovesToWin(mostMovesToWin);
+        statistics.setTotalNumberMoves(totalNumberMoves);
 
         //Stats for averageToWin
         averageToWin = totalNumberMoves/history.size();
-        stats.setAverageToWin(averageToWin);
+        statistics.setAverageToWin(averageToWin);
 
-        return stats;
+        return statistics;
     }
 
     /**
