@@ -82,7 +82,7 @@ public class Game {
         statistics.setTotalNumberMoves(totalNumberMoves);
 
         //Stats for averageToWin
-        averageToWin = totalNumberMoves/history.size();
+        averageToWin =  totalNumberMoves/history.size();
         statistics.setAverageToWin(averageToWin);
 
         return statistics;

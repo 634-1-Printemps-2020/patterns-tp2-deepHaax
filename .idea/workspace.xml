@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c32d158-fa13-4c1e-8219-09e621954e3b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP2-Piece/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP2-Piece/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP2-Piece/materials/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP2-Piece/materials/Coin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Rules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/materials/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/materials/Coin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
